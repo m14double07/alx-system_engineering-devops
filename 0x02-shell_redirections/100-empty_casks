@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | find . -type f -empty -exec basename {} \;
+find . -type f -empty -exec basename {} + | ls -l
